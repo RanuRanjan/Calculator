@@ -1,23 +1,27 @@
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("https://media.istockphoto.com/vectors/abstract-wavy-halftone-dots-background-vector-id1225681170?k=20&m=1225681170&s=612x612&w=0&h=qFzphEqIRbzXBdzL3kqcfwS2ULgmOpIRFYi_2WSgCto=");
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
 }
 .container {
   width: 1000px;
-  height: 600px;
-  margin: 20px auto;
-  background-image: url("https://image.freepik.com/free-photo/palette-calculator-bow-red-background_23-2148182111.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
+  height: 700px;
+  margin: 0px auto;
+  /* padding: 10px; */
 }
 #Calculator{
     width:320px;
-    height:550px;
-    margin: 10 auto;
-    background-color: teal;
+    height:580px;
+    margin: 0 auto;
+    background-color: #CAD5E2;
     position: relative;
     border-radius:8px;
+    top: 10px;
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.); */
-
+    /* display: flex; */
+    /* justify-content: center; */
 }
 #res{
     height:120px;
@@ -28,11 +32,13 @@ body {
        margin:0 20px;
        padding-top: 20px;
        font-size:15px;
-       color:#ffff;
+       color:rgb(179, 177, 177);
 }
 #output{
     text-align:right;
-    color:#ffff;
+    color:#758283;
+    padding-top: 20px;
+    margin:0 20px;
 
 }
 .operator, .number, .empty{
@@ -46,7 +52,7 @@ body {
      font-size:15px;
 }
 .number, .empty{
-    background-color:teal;
+    background-color:#CAD5E2;
 }
 .number, .operator{
     cursor: pointer;
@@ -61,21 +67,21 @@ body {
 
 button:nth-child(4){
     font-size: 20px;
-    background-color: yellow;
+    background-color: #4DD637;
 }
 button:nth-child(8){
     font-size: 20px;
-    background-color: red;
+    background-color: #F7CD2E;
 }
 button:nth-child(12){
     font-size: 20px;
-    background-color: yellow;
+    background-color: #E03B8B;
 }
 button:nth-child(16){
     font-size: 20px;
-    background-color: lawngreen;
+    background-color: #8D3DAF;
 }
 button:nth-child(20){
     font-size: 20px;
-    background-color: lightpink;
+    background-color: #E6425E;
 }
