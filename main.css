@@ -1,0 +1,81 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  width: 1000px;
+  height: 600px;
+  margin: 20px auto;
+  background-image: url("https://image.freepik.com/free-photo/palette-calculator-bow-red-background_23-2148182111.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#Calculator{
+    width:320px;
+    height:550px;
+    margin: 10 auto;
+    background-color: teal;
+    position: relative;
+    border-radius:8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.); */
+
+}
+#res{
+    height:120px;
+}
+#his{
+       text-align:right;
+       height:20px;
+       margin:0 20px;
+       padding-top: 20px;
+       font-size:15px;
+       color:#ffff;
+}
+#output{
+    text-align:right;
+    color:#ffff;
+
+}
+.operator, .number, .empty{
+     width:50px;
+     height: 50px;
+     margin:15px;
+     float:left;
+     border-radius:50%;
+     border-width: 0;
+     font-weight: bold;
+     font-size:15px;
+}
+.number, .empty{
+    background-color:teal;
+}
+.number, .operator{
+    cursor: pointer;
+}
+
+.operator:active,.number:active{
+    font-size: 13px;
+}
+.operator:focus,.number:focus,.empty:focus{
+    outline: 0;
+}
+
+button:nth-child(4){
+    font-size: 20px;
+    background-color: yellow;
+}
+button:nth-child(8){
+    font-size: 20px;
+    background-color: red;
+}
+button:nth-child(12){
+    font-size: 20px;
+    background-color: yellow;
+}
+button:nth-child(16){
+    font-size: 20px;
+    background-color: lawngreen;
+}
+button:nth-child(20){
+    font-size: 20px;
+    background-color: lightpink;
+}
